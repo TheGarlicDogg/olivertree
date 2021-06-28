@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <ul class="navigation-list">
+                <li class="navigation-item">
+                    <a class="navigation-link" href="index.html">
+                        Music
+                    </a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="">
+                        Merch
+                    </a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="">
+                        Videos
+                    </a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="">
+                        Tour
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="intro">
+            <video  autoplay muted class="intro-video">
+                <source src="videos/intro.mp4" type="video/mp4">
+            </video>
+            <h1 class="intro-title intro-title-top">
+                Oliver
+            </h1>
+            <h1 class="intro-title intro-title-bottom">
+                Tree
+            </h1>
+            <div class="replay-button-wrapper">
+                <button class="replay-button" type="button">
+                    <img class="replay-img" width="40" src="imgs/replay.png" alt="Replay">
+                </button>
+                <span class="replay-button-text">
+                    Replay
+                </span>
+            </div>
+        </div>
+        <section class="music-section">
+            <div class="music-container">
+                <h2 class="title album-title-top">
+                    Ugly is Beautiful
+                </h2>
+                <h2 class="title album-title-bottom">
+                    Shorter, Thicker & Uglier
+                </h2>
+                <p class="album-description">Deluxe album</p>
+                <figure class="album-img-container">
+                    <img class="album-img" src="imgs/album.png" alt="">
+                </figure>
+                <div class="album-actions">
+                    <a class="action__album" href="">
+                        Listen
+                    </a>
+                    <a class="action__album" href="">
+                        Download
+                    </a>
+                    <a class="action__album" href="">
+                        Official merch
+                    </a>
+                    <p class="action-description__album" >
+                        Choose your streaming service
+                    </p>
+                    <p class="action-description__album" >
+                        Purchase from your store of choice
+                    </p>
+                    <p class="action-description__album" >
+                        Shop merch in Oliver`s official store
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="merch-section">
+            <h2 class="title title__merch">
+                Official Merch
+            </h2>
+            <ul class="merch-list">
+                <li class="merch-item" id="cross">
+                    <a class="merch-item-link" href="">
+                        <img class="merch-item-img" src="imgs/hoodie.png" alt="">
+                    </a>
+                    <div class="merch-item-background"></div>
+                </li>
+                <li class="merch-item" id="cross">
+                    <a class="merch-item-link" href="">
+                        <img class="merch-item-img" src="imgs/jacket.png" alt="">
+                    </a>
+                    <div class="merch-item-background"></div>
+                </li>
+                <li class="merch-item">
+                    <a class="merch-item-link" href="">
+                        <img class="merch-item-img" src="imgs/sunglasses.png" alt="">
+                    </a>
+                    <div class="merch-item-background"></div>
+                </li>
+                <li class="merch-item">
+                    <a class="merch-item-link" href="">
+                        <img class="merch-item-img" src="imgs/wig.png" alt="">
+                    </a>
+                    <div class="merch-item-background"></div>
+                </li>
+                <li class="merch-item">
+                    <a class="merch-item-link" href="">
+                        <img class="merch-item-img" src="imgs/accessories.png" alt="">
+                    </a>
+                    <div class="merch-item-background"></div>
+                </li>
+                <li class="merch-item">
+                    <a class="merch-item-link" href="">
+                        <img class="merch-item-img" src="imgs/patch.png" alt="">
+                    </a>
+                    <div class="merch-item-background"></div>
+                </li>
+            </ul>
+            <a class="merch-button">
+                Shop more
+            </a>
+        </section>
+        <section class="videos-section">
+            <h2 class="title title__videos">
+                Videos
+            </h2>
+            <div class="carousel-wrapper">
+                <div class="carousel-slide">
+                    <div class="carousel-video" id="last-clone"></div>
+                    <div class="carousel-video" id="first"></div>
+                    <div class="carousel-video" id="second"></div>
+                    <div class="carousel-video" id="third"></div>
+                    <div class="carousel-video" id="fourth"></div>
+                    <div class="carousel-video" id="fifth"></div>
+                    <div class="carousel-video" id="first-clone"></div>
+                </div>
+            </div>
+            <div class="videos-btns-wrapper">
+                <button class="videos-btn-prev"></button>
+                <button class="videos-btn-next"></button>
+            </div>
+            <div class="video-description-wrapper">
+                <ul class="video-description-list">
+                    <li class="video-description-item">Hurt</li>
+                    <li class="video-description-item">Life goes on</li>
+                    <li class="video-description-item">I'm gone</li>
+                    <li class="video-description-item">Let me down</li>
+                    <li class="video-description-item">Cash machine</li>
+                    <li class="video-description-item">Hurt</li>
+                    <li class="video-description-item">Life goes on</li>
+                </ul>
+            </div>
+        </section>
+        <section class="tour-section">
+            <h2 class="title title__tour">
+                Upcoming shows
+            </h2>
+            <ul class="tour-list">
+                <li class="tour-item tour-item-date">
+                    <span class="date-top__tour-item">
+                        29
+                    </span>
+                    <span class="date-bottom__tour-item">
+                        Jul
+                    </span>
+                </li>
+                <li class="tour-item">
+                    <p class="show-name__tour-item">
+                        Lollapalooza 2021<br>
+                        Grant Park<br>
+                        Chicago, IL, US
+                    </p>
+                </li>
+                <li class="tour-item tour-item-link">
+                    <a class="link__tour-item" href="">
+                        Tickets
+                    </a>
+                </li>
+                <li class="tour-item tour-item-date">
+                    <span class="date-top__tour-item">
+                        28
+                    </span>
+                    <span class="date-bottom__tour-item">
+                        Aug
+                    </span>
+                </li>
+                <li class="tour-item">
+                    <p class="show-name__tour-item">
+                        Reading festival 2021<br>
+                        Reading festval<br>
+                        Reading, UK
+                    </p>
+                </li>
+                <li class="tour-item tour-item-link">
+                    <a class="link__tour-item" href="">
+                        Tickets
+                    </a>
+                </li>
+                <li class="tour-item tour-item-date">
+                    <span class="date-top__tour-item">
+                        29
+                    </span>
+                    <span class="date-bottom__tour-item">
+                        Aug
+                    </span>
+                </li>
+                <li class="tour-item">
+                    <p class="show-name__tour-item">
+                        Leeds festival 2021<br>
+                        Bramham park<br>
+                        Wetherby, UK
+                    </p>
+                </li>
+                <li class="tour-item tour-item-link">
+                    <a class="link__tour-item" href="">
+                        Tickets
+                    </a>
+                </li>
+                <li class="tour-item tour-item-date">
+                    <span class="date-top__tour-item">
+                        05
+                    </span>
+                    <span class="date-bottom__tour-item">
+                        Sep
+                    </span>
+                </li>
+                <li class="tour-item">
+                    <p class="show-name__tour-item">
+                        Bonnaroo music & arts festival 2021<br>
+                        Bonnaroo farms<br>
+                        Manchester, TN, US
+                    </p>
+                </li>
+                <li class="tour-item tour-item-link">
+                    <a class="link__tour-item" href="">
+                        Tickets
+                    </a>
+                </li>
+                <li class="tour-item tour-item-date">
+                    <span class="date-top__tour-item" id="long-date">
+                        <span class="long-date-top">
+                            18
+                        </span>
+                        /
+                        <span class="long-date-bottom">
+                            19
+                        </span>
+                    </span>
+                    <span class="date-bottom__tour-item">
+                        Sep
+                    </span>
+                </li>
+                <li class="tour-item">
+                    <p class="show-name__tour-item">
+                        Music midtown 2021<br>
+                        Piedmont park<br>
+                        Atlanta, GA, US
+                    </p>
+                </li>
+                <li class="tour-item tour-item-link">
+                    <a class="link__tour-item" href="">
+                        Tickets
+                    </a>
+                </li>
+                <li class="tour-item tour-item-date">
+                    <span class="date-top__tour-item">
+                        25
+                    </span>
+                    <span class="date-bottom__tour-item">
+                        Sep
+                    </span>
+                </li>
+                <li class="tour-item">
+                    <p class="show-name__tour-item">
+                        Firefly music festival 2021<br>
+                        Dover, DE, US
+                    </p>
+                </li>
+                <li class="tour-item tour-item-link">
+                    <a class="link__tour-item" href="">
+                        Tickets
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <ul class="social-links-list">
+            <li class="social-links-item">
+                <img width="32" src="imgs/facebook.png" alt="">
+            </li>
+            <li class="social-links-item">
+                <img width="32" src="imgs/twitter.png" alt="">
+            </li>
+            <li class="social-links-item">
+                <img width="32" src="imgs/free-icon-instagram-1384031.png" alt="">
+            </li>
+            <li class="social-links-item">
+                <img width="32" src="imgs/free-icon-youtube-152810.png" alt="">
+            </li>
+            <li class="social-links-item">
+                <img width="32" src="imgs/free-icon-spotify-logo-49097 (1).png" alt="">
+            </li>
+            <li class="social-links-item">
+                <img width="32" src="imgs/apple.png" alt="">
+            </li>
+            <li class="social-links-item">
+                <img width="32" src="imgs/soundcloud (1).png" alt="">
+            </li>
+            <li class="social-links-item">
+                <img width="32" src="imgs/tik-tok (2).png" alt="">
+            </li>
+        </ul>
+        <p class="copyright">
+            Redesigned by GarlicDogg.<br>
+            Original website: olivertreemusic.com
+        </p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="carousel.js"></script>
+</body>
+</html>
